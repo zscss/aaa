@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="book_name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/book_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="book_author"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/book_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="book_price"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/book_pages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="book_pages"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/book_category_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="book_category_id"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/add_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Addbook"
+        android:text="Add Book" />
+</LinearLayout>
